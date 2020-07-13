@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+	<html lang="lt">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kontaktai</title>
+		<style>
+			body {
+				background-image: radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
+			}
+
+			* {
+				box-sizing: border-box;
+			}
+
+			.col-1 {
+				flex-direction: column;
+			}
+
+			.col-2 {
+				flex-direction: column;
+			}
+
+			.col-9 {
+				flex-direction: column;
+			}
+
+			#kontaktai {
+				border: 1px solid black;
+			}
+
+			.col-9 {
+				border: 1px solid black;
+			}
+
+
+
+			#duomenys {
+				border: 1px solid black;
+			}
+
+			#kontaktai {
+				display: inline-flex;
+			}
+
+			#duomenys {
+				display: inline-flex;
+			}
+
+			#kontaktai {
+				width: auto;
+				height: auto;
+			}
+
+			#duomenys {
+				width: auto;
+				height: auto;
+			}
+
+			}
+			.col-1 {
+				width: 8.33%;
+			}
+			.col-2 {
+				width: 16.66%;
+			}
+			.col-3 {
+				width: 25%;
+			}
+			.col-4 {
+				width: 33.33%;
+			}
+			.col-5 {
+				width: 41.66%;
+			}
+			.col-6 {
+				width: 50%;
+			}
+			.col-7 {
+				width: 58.33%;
+			}
+			.col-8 {
+				width: 66.66%;
+			}
+			.col-9 {
+				width: 75%;
+			}
+			.col-10 {
+				width: 83.33%;
+			}
+			.col-11 {
+				width: 91.66%;
+			}
+			.col-12 {
+				width: 100%;
+			}
+
+			}
+			[class*="col-"] {
+				float: left;
+				padding: 10px;
+			}
+
+			@media screen and (max-width: 600px) {
+			#kontaktai, {
+				flex-direction: column;
+			}
+			#kontaktai, {
+				width: 100%;
+				}
+			}
+
+			@media screen and (min-width: 1200px) {
+				#kontaktai {
+					border: none;
+				}
+			}
+
+			@media screen and (max-width: 600px) {
+				#duomenys {
+					flex-direction: column;
+				}
+				#duomenys {
+					width: 100%;
+				}
+			}
+
+			@media screen and (min-width: 1200px) {
+				#duomenys {
+					border: none;
+				}
+			}
+
+
+
+		</style>
+	</head>
+
+	<body>
+		<h3 style="color: brown; font-size: 30px" id="pavadinimas" class="col-12">
+			Julijos Koksarovos baleto studija
+		</h3>
+
+		<ul id="kontaktai" class="col-1">
+			<li>
+				<i>
+					<b>
+						Laisvės al. 57, Kaunas
+					</b>
+				</i>
+			</li>
+			<li>
+				<b>
+					Tel:+37061185107
+				</b>
+			</li>
+			<li>
+				<b>
+					El. paštas: julijakoksarova@gmail.com
+				</b>
+			</li>
+			</ul>
+
+		<table border="1" id="kontaktai" class="col-9">
+			<tr>
+				<th>
+					Google maps
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2294.3190420698934!2d23.911282615542113!3d54.89732228033321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e7227465eb1efb%3A0x2fa53bfdb4d2604a!2sLaisv%C4%97s%20al.%2057%2C%20Kaunas%2044305!5e0!3m2!1slt!2slt!4v1594058334686!5m2!1slt!2slt" width="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+					</iframe>
+				</td>
+			</tr>
+		</table>
+
+
+
+		<form>
+			<table border="1" id="duomenys" class="col-2">
+			<tr>
+				<td>
+					Norite paklausti? Parašykite mums!
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="vardas">Vardas,Pavardė:</label>
+					<input id="vardas" name="vardas" type="text" placeholder="Įveskite savo vardą ir pavardę" required>
+				</td>
+			</tr>
+				<td>
+					<label for="adresas">El. pašto adresas:</label>
+					<input id="adresas" name="adresas" type="email" placeholder="Įveskite el. pašto adresą" required>
+			<tr>
+				<td colspan="2">
+					<textarea></textarea>
+				</td>
+			</tr>
+				</td>
+			<tr>
+				<th colspan="2">
+						<input type="submit" value="Siųsti žinutę">
+				</th>
+			</tr>
+			</table>
+		</form>
+	</body>
+</html>
